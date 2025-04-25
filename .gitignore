@@ -1,0 +1,102 @@
+# Python and Environments
+__pycache__/
+*.pyc
+*.pyd
+.Python
+env/
+venv/
+.venv/
+conda-env/
+environment.yml
+environment.lock.yaml
+*/.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+*_files/
+
+# VS Code
+.vscode/
+out/
+build/
+dist/
+*.spec
+
+# OS Specific
+Thumbs.db
+ehthumbs.db
+~$*
+*.swp
+.DS_Store
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+[Dd]esktop.ini
+*.log
+*.tmp
+
+# Byte-compiled / optimized / packaged code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+*.egg-info/
+.tox/
+.coverage
+*.manifest
+*.lib
+
+# Editor and IDE related
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vssscc
+*.dsw
+*.pydevproject
+*.bak
+*.orig
+*~
+.ropeproject
+.cache
+.history
+*.hprof
+*.profdata
+.project
+.settings
+/target/
+/node_modules/
+yarn-error.log
+pnpm-lock.yaml
+**/__pycache__
+
+# Temporary files
+*~
+# Log files
+*.log
+*.txt
+
+#OS
+.DS_Store
+
+# Local
+local_settings.py
+instance/
