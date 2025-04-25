@@ -1,3 +1,6 @@
+# Data files
+zipped-data/
+
 # Python and Environments
 __pycache__/
 *.pyc
