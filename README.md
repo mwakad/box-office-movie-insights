@@ -1,2 +1,15 @@
-# box-office-movie-insights
-Analyzing box office films' performance to provide actionable insights for a company's diversification strategy to the movie-production sector.
+# Box Office Performance Analysis for New Movie Studio
+
+## Overview
+
+
+## Business Understanding
+
+
+## Data Understanding
+
+
+## Data Analysis
+
+
+## Conclusion
