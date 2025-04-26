@@ -1,5 +1,9 @@
 # Data files
-zipped-data/
+zipped-data/bom.movie_gross.csv.gz
+zipped-data/bom.movie_gross.csv
+zipped-data/im.db.zip
+zipped-data/im.db
+
 
 # Python and Environments
 __pycache__/
