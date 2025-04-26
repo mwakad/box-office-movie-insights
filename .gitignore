@@ -21,7 +21,7 @@ environment.lock.yaml
 .pyre/
 
 # Jupyter
-.ipynb_checkpoints/
+#.ipynb_checkpoints/
 *_files/
 
 # VS Code
