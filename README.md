@@ -59,7 +59,7 @@ To validate our findings, we performed several statistical tests:
 
 **• Budget:** While the budget showed no direct significant correlation, we noted that larger budgets did not always equate to higher returns.
 
-**• Star Power:** We found strong evidence that the involvement of top actors is correlated with higher profitability.
+**• Star Power:** We found strong evidence that the involvement of top actors correlates with higher profitability.
 
 ## Key Findings
 
@@ -72,19 +72,19 @@ To validate our findings, we performed several statistical tests:
 **3: Budget:** While higher budgets were often linked to higher grosses, they did not always yield the best return on investment (ROI). Moderate-budget movies performed well.![production-budget-vs-profit-loss](https://github.com/user-attachments/assets/56ba16e3-0c16-4270-87b1-17854f331cf8)
 
 
-**4: Star Power:** Star power plays a significant role in profitability, with movies with top actors and directors delivering the highest returns.
+**4: Star Power:** Star power plays a significant role in profitability, with movies featuring top actors delivering the highest returns.
 
 
 ## Business Recommendations
-**1. Focus on High-Returning Genres:** Prioritize genres like Action, Adventure, and Comedy, which demonstrated the highest average profits.
+**1. Focus on High-Returning Genres:** Prioritize top-performing genres like Mystery, Horror, Comedy, Music, Animation, Romance, Adventure, and Action which demonstrated the highest average profits.
 
-**2. Optimize Release Timing:** Schedule major releases in Summer, when average profits were significantly higher. Consider limited theatrical runs or streaming-first strategies for off-peak films (e.g., Fall/Winter).
+**2. Optimize Release Timing:** Schedule major releases in Summer, and Winter when average profits are comparatively higher compared to Fall and Spring.
 
-**3. Budget Allocation Strategy:** Target a production budget range of $80 million, where return on investment (ROI) was maximized. Be cautious with ultra-high budgets (> $150 million) as they can generate large grosses but with more variability in ROI.
+**3. Budget Allocation Strategy:** Target a production budget range of $80 million to maximize return on investment (ROI). Be cautious with ultra-high budgets (> $150 million) as they can generate large grosses but with more variability in ROI.
 
-**4. Leverage Star Power Selectively:** Cast top-performing actors and directors who consistently contributed to higher profits. Negotiate profit-sharing deals to mitigate upfront costs. Balance marquee talent with emerging stars to control salary expenses while still attracting audiences.
+**4. Leverage Star Power Selectively:** Cast top-performing actors and directors to increase the performance in the box office. Negotiate profit-sharing deals to mitigate upfront costs. Balance marquee talent with emerging stars to control salary expenses while still attracting audiences.
 
-**5. Seasonal Marketing and Distribution:** Align marketing spend and distribution partnerships around peak seasons (Spring/Summer). For off-peak seasons, consider more strategic, low-cost distribution methods such as streaming services.
+**5. Seasonal Marketing and Distribution:** Align marketing spenditure and distribution partnerships around peak seasons (Summer/ Winter). For off-peak seasons, consider more strategic, low-cost distribution methods such as streaming services.
     
 ## Conclusion
 This project demonstrated how different factors impact movie profitability and offered actionable insights that can help a new movie studio maximize profits. By understanding the financial drivers of success—such as genre, budget, star power, and release season—studios can better strategize their productions, ultimately improving their financial outcomes.
