@@ -4,15 +4,15 @@
 In this group project, we aimed to analyze the factors influencing movie profitability using data from various movie metrics, such as budget, genre, release season, and the involvement of top actors and directors. Our goal was to identify key drivers of profitability and provide actionable recommendations to a new movie studio for maximizing returns on their investments.
 
 ## Table of Contents
-    1. Introduction
-    2. Data Preprocessing
-    3. Exploratory Data Analysis (EDA)
-    4. Statistical Analysis and Hypothesis Testing
-    5. Key Findings
-    6. Business Recommendations
-    7. Conclusion
-    8. Usage
-    9. Contributors
+1. Introduction
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Statistical Analysis and Hypothesis Testing
+5. Key Findings
+6. Business Recommendations
+7. Conclusion
+8. Usage
+9. Contributors
 
 ## Introduction
 The movie industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. In this project, we explored various factors like budget, genre, release season, and star power to uncover what contributes most to movie profitability. Our analysis was performed using real-world movie data, and we applied statistical hypothesis testing to validate our findings.
@@ -33,13 +33,14 @@ To understand the distribution of our data, we conducted an exploratory data ana
 
 ## Statistical Analysis and Hypothesis Testing
 To validate our findings, we performed several statistical tests:
-    1. ANOVA for Genre Effect: We tested whether the movie genre affected profitability using a one-way ANOVA test.
+
+1. ANOVA for Genre Effect: We tested whether the movie genre affected profitability using a one-way ANOVA test.
     
-    2. ANOVA for Seasonal Effect: We evaluated if release season influenced profitability with another ANOVA test.
+2. ANOVA for Seasonal Effect: We evaluated if release season influenced profitability with another ANOVA test.
     
-    3. Pearson Correlation for Budget and Profit: We assessed whether there was a correlation between the production budget and profitability.
+3. Pearson Correlation for Budget and Profit: We assessed whether there was a correlation between the production budget and profitability.
     
-    4. Chi-Square Test for Actor Influence: We tested if top actors’ involvement influenced the likelihood of a movie being highly profitable.
+4. Chi-Square Test for Actor Influence: We tested if top actors’ involvement influenced the likelihood of a movie being highly profitable.
 
 ### Hypothesis Testing Summary:
     • Genre: We failed to reject the null hypothesis that genre does not significantly affect profitability.
