@@ -34,8 +34,11 @@ To understand the distribution of our data, we conducted an exploratory data ana
 ## Statistical Analysis and Hypothesis Testing
 To validate our findings, we performed several statistical tests:
     1. ANOVA for Genre Effect: We tested whether the movie genre affected profitability using a one-way ANOVA test.
+    
     2. ANOVA for Seasonal Effect: We evaluated if release season influenced profitability with another ANOVA test.
+    
     3. Pearson Correlation for Budget and Profit: We assessed whether there was a correlation between the production budget and profitability.
+    
     4. Chi-Square Test for Actor Influence: We tested if top actors’ involvement influenced the likelihood of a movie being highly profitable.
 
 ### Hypothesis Testing Summary:
