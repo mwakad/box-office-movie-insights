@@ -20,15 +20,15 @@ The movie industry is a highly competitive environment,  and understanding what 
 ## Data Preprocessing
 We began by cleaning and preprocessing the dataset. This involved handling missing values, normalizing data where necessary, and transforming the dataset to extract meaningful features. Key features considered included:
 
-**-Movie Profit/Loss:** The financial success of the movie, calculated as revenue minus production budget.
+**Movie Profit/Loss:** The financial success of the movie, calculated as revenue minus production budget.
 
-**-Production Budget:** The total budget allocated for the production of the movie.
+**Production Budget:** The total budget allocated for the production of the movie.
 
-**-Genres:** The different genres a movie may belong to (e.g., Action, Comedy, Drama).
+**Genres:** The different genres a movie may belong to (e.g., Action, Comedy, Drama).
 
-**-Actors and Directors:** Key cast and crew members who could potentially influence the movie's success.
+**Actors and Directors:** Key cast and crew members who could potentially influence the movie's success.
 
-**-Season of Release:** The quarter or season in which the movie was released (e.g., Summer, Fall, Winter).
+**Season of Release:** The quarter or season in which the movie was released (e.g., Summer, Fall, Winter).
 
 
 ## Exploratory Data Analysis (EDA)
@@ -63,13 +63,17 @@ To validate our findings, we performed several statistical tests:
 
 ## Key Findings
 
-**-Genre:** The most profitable genres are Action, Adventure, and Comedy.
+**1: Genre:** The most profitable genres are Action, Adventure, and Comedy.![average-profit-by-genre](https://github.com/user-attachments/assets/9f143153-e70d-46a6-aa2e-24378938c8de)
 
-**-Season:** Summer releases tend to generate higher average profits than movies released in Fall or Winter.
 
-**-Budget:** While higher budgets were often linked to higher grosses, they did not always yield the best return on investment (ROI). Moderate-budget movies performed well.
+**2: Season:** Summer releases tend to generate higher average profits than movies released in Fall or Winter.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
 
-**-Actors:** Star power plays a significant role in profitability, with top actors delivering the highest returns.
+
+**3: Budget:** While higher budgets were often linked to higher grosses, they did not always yield the best return on investment (ROI). Moderate-budget movies performed well.![production-budget-vs-profit-loss](https://github.com/user-attachments/assets/56ba16e3-0c16-4270-87b1-17854f331cf8)
+
+
+**4: Star Power:** Star power plays a significant role in profitability, with movies with top actors and directors delivering the highest returns.
+
 
 ## Business Recommendations
 **1. Focus on High-Returning Genres:** Prioritize genres like Action, Adventure, and Comedy, which demonstrated the highest average profits.
