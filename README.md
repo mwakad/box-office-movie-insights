@@ -63,7 +63,7 @@ To validate our findings, we performed several statistical tests:
 
 ## Key Findings
 
-**1: Genre:** The most profitable genres are Mystery, Horror, Comedy, Animation, and Romance.![average-profit-by-genre](https://github.com/user-attachments/assets/9f143153-e70d-46a6-aa2e-24378938c8de)
+**1: Genre:** The most profitable genres are Drama, Comedy, Horror, Thriller, and Action. ![average-profit-by-genre](https://github.com/user-attachments/assets/f1cebcd1-ea4b-47d5-9df5-eac9254f45e2)
 
 
 **2: Season:** Summer releases tend to generate higher average profits than movies released in Fall or Winter.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
@@ -76,7 +76,7 @@ To validate our findings, we performed several statistical tests:
 
 
 ## Business Recommendations
-**1. Focus on High-Returning Genres:** Prioritize top-performing genres like Mystery, Horror, Comedy, Music, Animation, Romance, Adventure, and Action which demonstrated the highest average profits.
+**1. Focus on High-Returning Genres:** Prioritize top-performing genres like Drama, Mystery, Comedy which demonstrated the highest average profits.
 
 **2. Optimize Release Timing:** Schedule major releases in Summer, and Winter when average profits are comparatively higher compared to Fall and Spring.
 
@@ -89,8 +89,6 @@ To validate our findings, we performed several statistical tests:
 ## Conclusion
 This project demonstrated how different factors impact movie profitability and offered actionable insights that can help a new movie studio maximize profits. By understanding the financial drivers of success—such as genre, budget, star power, and release season—studios can better strategize their productions, ultimately improving their financial outcomes.
     
-## Usage
-   
    
 ## Contributors
 Abdirahman Yussuf
