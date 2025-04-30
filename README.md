@@ -53,7 +53,7 @@ To validate our findings, we performed several statistical tests:
 
 ### Hypothesis Testing Summary:
 
-**• Genre:** We failed to reject the null hypothesis that genre does not significantly affect profitability.
+**• Genre:** We rejected the null hypothesis that genre does not significantly affect profitability.
 
 **• Season:** Similarly, we found no significant impact from the season of release on movie profits.
 
