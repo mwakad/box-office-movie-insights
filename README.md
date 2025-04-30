@@ -63,7 +63,7 @@ To validate our findings, we performed several statistical tests:
 
 ## Key Findings
 
-**1: Genre:** The most profitable genres are Action, Adventure, and Comedy.![average-profit-by-genre](https://github.com/user-attachments/assets/9f143153-e70d-46a6-aa2e-24378938c8de)
+**1: Genre:** The most profitable genres are Mystery, Horror, Comedy, Animation, and Romance.![average-profit-by-genre](https://github.com/user-attachments/assets/9f143153-e70d-46a6-aa2e-24378938c8de)
 
 
 **2: Season:** Summer releases tend to generate higher average profits than movies released in Fall or Winter.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
