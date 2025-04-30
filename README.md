@@ -55,7 +55,7 @@ To validate our findings, we performed several statistical tests:
 
 **• Genre:** We rejected the null hypothesis that genre does not significantly affect profitability.
 
-**• Season:** Similarly, we found no significant impact from the season of release on movie profits.
+**• Season:** We rejected the Null Hypothesis that the season that a movie is released does not significantly affect profitability.
 
 **• Budget:** While the budget showed no direct significant correlation, we noted that larger budgets did not always equate to higher returns.
 
