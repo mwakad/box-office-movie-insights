@@ -103,10 +103,15 @@ Marion Osong
 
 ## Repository Structure
 |-images
+
 |-notebooks
+
 |-zipped_data
+
 |-README.md
+
 |-index.ipynb
+
 |_presentation.pdf
 
 
