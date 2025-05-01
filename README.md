@@ -102,17 +102,17 @@ Gerald Wanjala
 Marion Osong
 
 ## Repository Structure
-|-images
+|---images
 
-|-notebooks
+|---notebooks
 
-|-zipped_data
+|---zipped_data
 
-|-README.md
+|---README.md
 
-|-index.ipynb
+|---index.ipynb
 
-|_presentation.pdf
+|__presentation.pdf
 
 
 
