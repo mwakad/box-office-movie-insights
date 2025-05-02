@@ -27,13 +27,16 @@ Loading datasets, merging DataFrames, handling missing values, dropping duplicat
 
 ## Visualizations
 
-**1: Genre:** The most profitable genres are Drama, Comedy, Horror, Thriller, and Action. ![average-profit-by-genre](https://github.com/user-attachments/assets/f1cebcd1-ea4b-47d5-9df5-eac9254f45e2)
+**1: Genre:** The most profitable genres are Drama, Comedy, Horror, Thriller, and Action.![average-profit-by-genre](https://github.com/user-attachments/assets/eee4089c-c797-4784-be26-dacfc91fecd5)
+ 
 
 
-**2: Season:** Summer releases tend to generate higher average profits compared to other seasons.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
+**2: Season:** Summer releases tend to generate higher average profits compared to other seasons.![average-movie-profit-by-season](https://github.com/user-attachments/assets/817bbad7-114c-4c9d-95d5-f207653ae963)
 
 
-**3: Star Power:** A movie's profitability is dependent on top-performing talent.![top10-actors-by-total-profit](https://github.com/user-attachments/assets/a0d57b29-4cdc-44ae-9030-3082e9ccbb00)
+
+**3: Star Power:** A movie's profitability is dependent on top-performing talent.![top10-actors-by-total-profit](https://github.com/user-attachments/assets/558e3252-2dc5-4e52-83c5-c5617d62a280)
+
 
 
 ## Hypothesis Testing Summary
