@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The movie industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. This project explores potential predictor variables the company can leverage in making data-supported decisions for its new movie studio division to optimize profitability. Three datasets are strategically prepared, merged and cleaned for analysis. 
+The film industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. This project explores potential predictor variables a company planning to enter the industry can leverage in making data-supported decisions for its new movie studio division to optimize profitability. Three datasets are strategically prepared, merged and cleaned for analysis. 
 * bom.movie_gross.csv.gz
 * tn.movie_budgets.csv.gz
 * im.db.zip
@@ -16,22 +16,22 @@ Loading datasets, merging DataFrames, handling missing values, dropping duplicat
 
 **Predictor factors:** 
 
-1: Genres: The different genres a movie may belong to (e.g., Action, Comedy, Drama).
+1: _Genres_: The different genres a movie may belong to (e.g., Action, Comedy, Drama).
 
-2: Season of Release: The season in which the movie was released (e.g., Summer, Fall, Winter).
+2: _Season_: The season in which a movie is released (e.g., Summer, Fall, Winter).
 
-3: Production Budget: The total budget allocated for the production of a movie.
+3: _Production Budget_: The total production budget for a movie.
 
-4: Star Power: Actors and Directors that potentially influence the movie's success.
+4: _Star Power_: Actors and Directors that potentially influence a movie's success.
 
 
 ## Visualizations
 
-**1: Genre:** The most profitable genres are Drama, Comedy, Horror, Thriller, and Action.![average-profit-by-genre](https://github.com/user-attachments/assets/eee4089c-c797-4784-be26-dacfc91fecd5)
+**1: Genre:** The most profitable genres are Drama, Documentary, Comedy, Horror, Mystery, Thriller, and Romance.![average-profit-by-genre](https://github.com/user-attachments/assets/eee4089c-c797-4784-be26-dacfc91fecd5)
  
 
 
-**2: Season:** Summer releases tend to generate higher average profits compared to other seasons.![average-movie-profit-by-season](https://github.com/user-attachments/assets/817bbad7-114c-4c9d-95d5-f207653ae963)
+**2: Season:** Summer releases tend to generate higher profits on average compared to other seasons.![average-movie-profit-by-season](https://github.com/user-attachments/assets/817bbad7-114c-4c9d-95d5-f207653ae963)
 
 
 
@@ -41,7 +41,7 @@ Loading datasets, merging DataFrames, handling missing values, dropping duplicat
 
 ## Hypothesis Testing Summary
 
-**• Genre:** Statistically significant relationship between genre and pofitability.
+**• Genre:** Statistically significant relationship between genre and profitability.
 
 **• Season:** No statistically significant relationship between a movie's release season and profitability.
 
@@ -61,13 +61,14 @@ Loading datasets, merging DataFrames, handling missing values, dropping duplicat
     
 ## Next Steps
 
-1: Initialize and diversify professional networks with top-performing actors and directors.
+**1:** Initialize and diversify professional networks with top-performing actors and directors.
 
-2: launch talent search projects to identify emerging actors with substantial potential.
+**2:** launch talent search projects to identify emerging actors with substantial potential.
 
-3: Conduct extensive research on latest technologies (software and hardware) in film production. 
+**3:** Conduct extensive research on latest technologies (software and hardware) in film production. 
 
-5: Conduct case studies on top-performing studios.
+**4:** Conduct case studies on top-performing studios.
+
    
 ## Contributors
 
