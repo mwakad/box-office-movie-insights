@@ -16,13 +16,13 @@ Loading datasets, merging DataFrames, handling missing values, dropping duplicat
 
 **Predictor factors:** 
 
-    1: Genres: The different genres a movie may belong to (e.g., Action, Comedy, Drama).
+1: Genres: The different genres a movie may belong to (e.g., Action, Comedy, Drama).
 
-    2: Season of Release: The season in which the movie was released (e.g., Summer, Fall, Winter).
+2: Season of Release: The season in which the movie was released (e.g., Summer, Fall, Winter).
 
-    3: Production Budget: The total budget allocated for the production of a movie.
+3: Production Budget: The total budget allocated for the production of a movie.
 
-    4: Star Power: Actors and Directors that potentially influence the movie's success.
+4: Star Power: Actors and Directors that potentially influence the movie's success.
 
 
 ## Visualizations
@@ -82,10 +82,15 @@ Marion Osong.
 ## Repository Structure
 
 ├─ images
+
 ├── notebooks
+
 ├── zipped-data
+
 ├── README.md
+
 ├── index.ipynb
+
 └── presentation.pdf
 
 
