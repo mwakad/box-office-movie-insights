@@ -11,8 +11,8 @@ In this group project, we aimed to analyze the factors influencing movie profita
 5. Key Findings
 6. Business Recommendations
 7. Conclusion
-8. Usage
-9. Contributors
+8. Contributors
+9. Repository Structure
 
 ## Introduction
 The movie industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. In this project, we explored various factors like budget, genre, release season, and star power to uncover what contributes most to movie profitability. Our analysis was performed using real-world movie data, and we applied statistical hypothesis testing to validate our findings.
