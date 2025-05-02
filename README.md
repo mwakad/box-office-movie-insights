@@ -1,116 +1,93 @@
 # Profitability Analysis: Insights for New Movie Studio
 
 ## Project Overview
-In this group project, we aimed to analyze the factors influencing movie profitability using data from various movie metrics, such as budget, genre, release season, and the involvement of top actors and directors. Our goal was to identify key drivers of profitability and provide actionable recommendations to a new movie studio for maximizing returns on their investments.
 
-## Table of Contents
-1. Introduction
-2. Data Preprocessing
-3. Exploratory Data Analysis (EDA)
-4. Statistical Analysis and Hypothesis Testing
-5. Key Findings
-6. Business Recommendations
-7. Conclusion
-8. Contributors
-9. Repository Structure
+The movie industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. This project explores potential predictor variables the company can leverage in making data-supported decisions for its new movie studio division to optimize profitability. Three datasets are strategically prepared, merged and cleaned for analysis. 
+* bom.movie_gross.csv.gz
+* tn.movie_budgets.csv.gz
+* im.db.zip
 
-## Introduction
-The movie industry is a highly competitive environment,  and understanding what makes a movie profitable is essential for success. In this project, we explored various factors like budget, genre, release season, and star power to uncover what contributes most to movie profitability. Our analysis was performed using real-world movie data, and we applied statistical hypothesis testing to validate our findings.
     
 ## Data Preprocessing
-We began by cleaning and preprocessing the dataset. This involved handling missing values, normalizing data where necessary, and transforming the dataset to extract meaningful features. Key features considered included:
 
-**Movie Profit/Loss:** The financial success of the movie, calculated as revenue minus production budget.
+Loading datasets, merging DataFrames, handling missing values, dropping duplicates, and feature engineering. 
 
-**Production Budget:** The total budget allocated for the production of the movie.
+**Target variable:** profitability = worldwide gross - production budget. 
 
-**Genres:** The different genres a movie may belong to (e.g., Action, Comedy, Drama).
+**Predictor factors:** 
 
-**Actors and Directors:** Key cast and crew members who could potentially influence the movie's success.
+    1: Genres: The different genres a movie may belong to (e.g., Action, Comedy, Drama).
 
-**Season of Release:** The quarter or season in which the movie was released (e.g., Summer, Fall, Winter).
+    2: Season of Release: The season in which the movie was released (e.g., Summer, Fall, Winter).
+
+    3: Production Budget: The total budget allocated for the production of a movie.
+
+    4: Star Power: Actors and Directors that potentially influence the movie's success.
 
 
-## Exploratory Data Analysis (EDA)
-To understand the distribution of our data, we conducted an exploratory data analysis (EDA). Some of the key EDA steps included:
-
-**• Visualizing top actors by total profit:** We identified the actors with the highest total profits from their movie roles.
-
-**• Analyzing genre profitability:** We explored which movie genres produced the highest average profits.
-
-**• Seasonal trends:** We examined how movie release timing (e.g., Summer vs. Winter) impacted profitability.
-
-## Statistical Analysis and Hypothesis Testing
-To validate our findings, we performed several statistical tests:
-
-**1. ANOVA for Genre Effect:** We tested whether the movie genre affected profitability using a one-way ANOVA test.
-    
-**2. ANOVA for Seasonal Effect:** We evaluated if release season influenced profitability with another ANOVA test.
-    
-**3. Pearson Correlation for Budget and Profit:** We assessed whether there was a correlation between the production budget and profitability.
-    
-**4. Chi-Square Test for Actor Influence:** We tested if top actors’ involvement influenced the likelihood of a movie being highly profitable.
-
-### Hypothesis Testing Summary:
-
-**• Genre:** The genre/s of a movie bears a statistically significant influence on profitability.
-
-**• Season:** We found no significant impact from the season of release on movie profits.
-
-**• Budget:** While the budget showed no direct significant correlation, we noted that larger budgets did not always equate to higher returns.
-
-**• Star Power:** We found strong evidence that the involvement of top actors correlates with higher profitability.
-
-## Key Findings
+## Visualizations
 
 **1: Genre:** The most profitable genres are Drama, Comedy, Horror, Thriller, and Action. ![average-profit-by-genre](https://github.com/user-attachments/assets/f1cebcd1-ea4b-47d5-9df5-eac9254f45e2)
 
 
-**2: Season:** Summer releases tend to generate higher average profits than movies released in Fall or Winter.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
+**2: Season:** Summer releases tend to generate higher average profits compared to other seasons.![average-movie-profit-by-season](https://github.com/user-attachments/assets/9b691fe2-c35a-405b-aa66-1c5d7e2c05cc)
 
 
-**3: Budget:** While higher budgets were often linked to higher grosses, they did not always yield the best return on investment (ROI). Moderate-budget movies performed well.![production-budget-vs-profit-loss](https://github.com/user-attachments/assets/56ba16e3-0c16-4270-87b1-17854f331cf8)
+**3: Star Power:** A movie's profitability is dependent on top-performing talent.![top10-actors-by-total-profit](https://github.com/user-attachments/assets/a0d57b29-4cdc-44ae-9030-3082e9ccbb00)
 
 
-**4: Star Power:** Star power plays a significant role in profitability, with movies featuring top actors delivering the highest returns.
+## Hypothesis Testing Summary
+
+**• Genre:** Statistically significant relationship between genre and pofitability.
+
+**• Season:** No statistically significant relationship between a movie's release season and profitability.
+
+**• Budget:** Weak positive correlation between production budget and profitability.
+
+**• Star Power:** Statistically significant dependence between top talent (directors and actors) and a movie's profitability.
 
 
 ## Business Recommendations
-**1. Focus on High-Returning Genres:** Prioritize top-performing genres like Drama, Mystery, Comedy which demonstrated the highest average profits.
 
-**2. Optimize Release Timing:** Schedule major releases in Summer, and Winter when average profits are comparatively higher compared to Fall and Spring.
+**1. Focus on High-Returning Genres:** Prioritize top-performing genres: Drama, Documentary, Comedy, Horror, Mystery, Thriller and Romance.
 
-**3. Budget Allocation Strategy:** Target a production budget range of $80 million to maximize return on investment (ROI). Be cautious with ultra-high budgets (> $150 million) as they can generate large grosses but with more variability in ROI.
+**2. Leverage Star Power Selectively:** Cast top-performing actors and directors to increase box office grossing. Strike an effective balance between contracting top-performers and emerging talent to control against budget overshoot and meet market appeal.
 
-**4. Leverage Star Power Selectively:** Cast top-performing actors and directors to increase the performance in the box office. Negotiate profit-sharing deals to mitigate upfront costs. Balance marquee talent with emerging stars to control salary expenses while still attracting audiences.
+**3. Optimize Release Timing:** Schedule major releases in Summer to optimize Box Office grossing.
 
-**5. Seasonal Marketing and Distribution:** Align marketing spenditure and distribution partnerships around peak seasons (Summer/ Winter). For off-peak seasons, consider more strategic, low-cost distribution methods such as streaming services.
     
-## Conclusion
-This project demonstrated how different factors impact movie profitability and offered actionable insights that can help a new movie studio maximize profits. By understanding the financial drivers of success—such as genre, budget, star power, and release season—studios can better strategize their productions, ultimately improving their financial outcomes.
-    
+## Next Steps
+
+1: Initialize and diversify professional networks with top-performing actors and directors.
+
+2: launch talent search projects to identify emerging actors with substantial potential.
+
+3: Conduct extensive research on latest technologies (software and hardware) in film production. 
+
+5: Conduct case studies on top-performing studios.
    
 ## Contributors
-Abdirahman Yussuf
 
-Daniel Mwaka
+Abdirahman Yussuf.
 
-Eliana Kariuki 
+Daniel Mwaka.
 
-Gerald Wanjala
+Eliana Kariuki.
 
-Marion Osong
+Gerald Wanjala.
+
+Marion Osong.
+
 
 ## Repository Structure
 
-```
 ├─ images
 ├── notebooks
 ├── zipped-data
 ├── README.md
 ├── index.ipynb
 └── presentation.pdf
-```
+
 
 
 
